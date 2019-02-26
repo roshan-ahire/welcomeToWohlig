@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .navbar-right {
+            margin-left: 500px;
+        }
+
+        ul li a:hover {
+            background-color: #E7C60A;
+        }
+
+        .site {
+            text-align: center;
+        }
+
+        .branch {
+            text-align: center;
+            color: orange;
+            font-size: 40px;
+            border-bottom: 2px solid red;
+            width: 500px;
+            margin: auto;
+        }
+
+        .card:hover {
+            border: 3px solid green;
+        }
+
+        .service {
+            margin-top: 50px;
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .rule {
+
+            color: orange;
+            font-size: 30px;
+            border-bottom: 2px solid red;
+            width: 500px;
+            margin: 50px;
+            margin-left: 300px;
+            text-align: center;
+
+        }
+
+        .row .photo img {
+            width: 600px;
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        .row .photo img:hover {
+            border: 3px solid red;
+            width: 610px;
+            height: 310px;
+
+        }
+
+        .row .para {
+            height: 200px;
+            border-left: 3px solid red;
+        }
+
+        .row .last {
+            height: 500px;
+            background-color: rgba(0, 0, 0, 0.5);
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Wohlig Transformations</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact us</a>
+                </li>
+                <ul class="navbar-nav navbar-right ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">sign up</a>
+                    </li>
+                </ul>
+
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron site">
+            <h1 class="display-4">Welcome To The Site!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content
+                or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+                <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <p class="branch">
+                    Our Company Branches
+                </p>
+            </div>
+        </div>
+
+        <div class="card-deck service">
+            <div class="card">
+                <img class="card-img-top" src="nashik.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nashik Branch</h5>
+                    <p class="card-text">Make My Trip Branch Office in Nasik is a premium, one-stop-shop for all your travel needs. The booking
+                        office is located at a convenient point within your city ..</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="mumbai.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mumbai Branch</h5>
+                    <p class="card-text">Hitachi started its business in India in the 1930's. With over 25 business bases and over 10,000 employees
+                        in India presently, Hitachi Group in India is expanding through using its expertise in 'Social Innovation
+                        Business'. ... 508, Ascot Centre, Next to Hilton Hotel, Sahar Road ...</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="nagpur.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nagpur Branch</h5>
+                    <p class="card-text">SOTC Branch Office in Nagpur is a premium, one-stop-shop for all your travel needs. The booking office
+                        is located at a convenient point within your city Nagpur, SOTC Branch Office in Nagpur is a premium,
+                        one-stop-shop for all your travel needs. The booking office is located at a convenient point within
+                        your city Nagpur, .......</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="rule">
+                    Company Rule And Regulation
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 para">
+                Each employee must act in accordance with the company's policies, orders, rules, regulations, guidelines etc. applicable
+                from time to time. to conduct themselves on the job in a manner that contributes to operating effectiveness,
+                productivity, safety and a harmonious work environment.
+            </div>
+            <div class="col-md-6 photo">
+                <img class="img-fluid" src="download.png" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 last"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
